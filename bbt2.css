@@ -1,0 +1,27 @@
+@media screen and (max-width: 768px) {
+    .content
+    {
+        width: 600px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .container{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .content{
+        flex-direction: column;
+        width: 80%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .picture
+    {
+        height: 250px;
+        width: 100%;
+    }
+}
